@@ -1,0 +1,26 @@
+{
+  "name": "ReactNativeI18nPreview",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@ftdr/react-native-i18n": "file:.yalc/@ftdr/react-native-i18n",
+    "expo": ">=44.0.0-0 <45.0.0",
+    "react": "17.0.2",
+    "react-native": "0.66.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/runtime": "^7.16.7",
+    "@types/react-native": "^0.66.15",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "typescript": "^4.5.5"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  }
+}

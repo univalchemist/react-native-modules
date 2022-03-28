@@ -1,0 +1,63 @@
+{
+  "name": "@ftdr/react-native-dynamic-links",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/commonjs",
+  "module": "lib/module",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src",
+  "source": "src",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "ftdr-react-native-dynamic-links.podspec",
+    "!lib/typescript/preview",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "test": "jest",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "prepare": "bob build",
+    "preview": "yarn --cwd preview",
+    "pods": "cd preview && pod-install --quiet",
+    "bootstrap": "yarn preview && yarn && yarn pods"
+  },
+  "author": "Frontdoor Inc.",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "@react-native-firebase/dynamic-links": "^14.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.39",
+    "@types/react-native": "0.66.15",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "pod-install": "^0.1.31",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-builder-bob": "^0.18.2",
+    "typescript": "4.5.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ReactNativeDynamicLinksPreview",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@ftdr/react-native-dynamic-links": "file:.yalc/@ftdr/react-native-dynamic-links",
+    "@react-native-firebase/app": "^14.4.0",
+    "@react-native-firebase/dynamic-links": "^14.4.0",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/native-stack": "^6.5.0",
+    "expo": ">=44.0.0-0 <45.0.0",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/runtime": "^7.17.2",
+    "@types/react-native": "^0.66.15",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "typescript": "^4.5.5"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "react-native-modules",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --max-warnings=1 --cache --fix"
+    ],
+    "*.{js,jsx,json,ts,tsx}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@ftdr/fetk": "^0.1.4"
+  }
+}

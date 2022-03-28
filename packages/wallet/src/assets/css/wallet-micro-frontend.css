@@ -1,0 +1,13 @@
+@import "@ftdr/blueprint-core/src/css/themes/ahs-web-app/_font-imports.css";
+
+@import "tailwindcss/base";
+
+@import "@ftdr/blueprint-core/src/css/_base.css";
+
+@import "tailwindcss/components";
+
+@import "@ftdr/blueprint-core/src/css/_components.css";
+
+@import "./_wallet.css";
+
+@import "tailwindcss/utilities";

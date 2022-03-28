@@ -1,0 +1,1 @@
+export { generateLink } from "./generateLink";

@@ -1,0 +1,35 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "changelogPreset": {
+    "name": "conventionalcommits",
+    "issuePrefixes": ["MOB-"],
+    "issueUrlFormat": "https://ftdr.atlassian.net/browse/{{prefix}}{{id}}",
+    "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
+    "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+    "userUrlFormat": "{{host}}/{{user}}",
+    "types": [
+      { "type": "feat", "section": "Features ✨" },
+      { "type": "fix", "section": "Bug Fixes 🐛" },
+      { "type": "test", "section": "Tests 🧪" },
+      { "type": "refactor", "section": "Code Refactoring 🔨" },
+      { "type": "docs", "section": "Documentation 📚" },
+      { "type": "chore", "hidden": true },
+      { "type": "revert", "section": "Revert 🔙" }
+    ]
+  },
+  "command": {
+    "version": {
+      "allowBranch": ["master", "dev"],
+      "verifyAccess": false,
+      "conventionalCommits": true
+    },
+    "publish": {
+      "allowBranch": ["master", "dev"],
+      "verifyAccess": false,
+      "createRelease": "gitlab"
+    }
+  }
+}

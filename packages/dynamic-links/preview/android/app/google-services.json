@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "311871772699",
+    "project_id": "ftdr-react-native-starter-poc",
+    "storage_bucket": "ftdr-react-native-starter-poc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311871772699:android:bf0f75751e85927bbc00be",
+        "android_client_info": {
+          "package_name": "com.ahs.preview.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311871772699-62dq6a2p5n0mnmmd8rb2g8s69f4ghqto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo1usXGqVNMzOz_C8-x0GRL3ZYxyIkCxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311871772699-62dq6a2p5n0mnmmd8rb2g8s69f4ghqto.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311871772699-2g64ls581qhurvocn4u7ja1mlp5nvccq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ahs.preview.starter",
+                "app_store_id": "1607864483"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311871772699:android:7e2b8e5cb1678f9abc00be",
+        "android_client_info": {
+          "package_name": "com.frontdoorhome.preview.dynamiclinks.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311871772699-62dq6a2p5n0mnmmd8rb2g8s69f4ghqto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo1usXGqVNMzOz_C8-x0GRL3ZYxyIkCxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311871772699-62dq6a2p5n0mnmmd8rb2g8s69f4ghqto.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311871772699-2g64ls581qhurvocn4u7ja1mlp5nvccq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ahs.preview.starter",
+                "app_store_id": "1607864483"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

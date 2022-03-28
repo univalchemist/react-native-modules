@@ -1,0 +1,27 @@
+{
+  "lng": "pl",
+  "title": "Polski",
+  "namespaces": ["basic", "extended"],
+  "translations": {
+    "pl": {
+      "basic": {
+        "title": "Polski tytuł",
+        "description": "Podstawowy opis",
+        "loadResourcesScreen": {
+          "button": "Zasymuluj doładowanie zasobów"
+        },
+        "languageSelector": {
+          "button": "Zmień język"
+        },
+        "languageSelectorModal": {
+          "emptyList": "Pusta lista języków",
+          "close": "Zamknij"
+        }
+      },
+      "extended": {
+        "title": "Rozszerzony PL tytuł AHS",
+        "description": "Rozszerzony opis"
+      }
+    }
+  }
+}

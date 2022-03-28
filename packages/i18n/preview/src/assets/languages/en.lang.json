@@ -1,0 +1,27 @@
+{
+  "lng": "en",
+  "title": "English",
+  "namespaces": ["basic", "extended"],
+  "translations": {
+    "en": {
+      "basic": {
+        "title": "English title",
+        "description": "Basic description",
+        "loadResourcesScreen": {
+          "button": "Simulate loading resources"
+        },
+        "languageSelector": {
+          "button": "Change language"
+        },
+        "languageSelectorModal": {
+          "emptyList": "Empty languages list",
+          "close": "Close"
+        }
+      },
+      "extended": {
+        "title": "AHS extended EN title",
+        "description": "Extended description"
+      }
+    }
+  }
+}
